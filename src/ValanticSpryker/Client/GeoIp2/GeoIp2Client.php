@@ -6,11 +6,12 @@ namespace ValanticSpryker\Client\GeoIp2;
 
 use Generated\Shared\Transfer\GeoIp2CountryRequestTransfer;
 use Generated\Shared\Transfer\GeoIp2CountryResponseTransfer;
+use Spryker\Client\Kernel\AbstractClient;
 
 /**
  * @method \ValanticSpryker\Client\GeoIp2\GeoIp2Factory getFactory()
  */
-class GeoIp2Client implements GeoIp2ClientInterface
+class GeoIp2Client extends AbstractClient implements GeoIp2ClientInterface
 {
     /**
      * @param \Generated\Shared\Transfer\GeoIp2CountryRequestTransfer $geoIp2CountryRequestTransfer

@@ -14,7 +14,7 @@ class GeoIp2Config extends AbstractBundleConfig
      */
     public function getGeoIp2AccountId(): int
     {
-        return $this->get(GeoIp2Constants::GEO_IP_2_LICENSE_KEY, 0);
+        return $this->get(GeoIp2Constants::GEO_IP_2_ACCOUNT_ID, 0);
     }
 
     /**
