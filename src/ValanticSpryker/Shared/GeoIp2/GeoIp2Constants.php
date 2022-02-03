@@ -15,4 +15,14 @@ interface GeoIp2Constants
      * @var string
      */
     public const GEO_IP_2_LICENSE_KEY = 'GEO_IP_2_LICENSE_KEY';
+
+    /**
+     * @var string
+     */
+    public const GEO_IP_2_LOCALES = 'GEO_IP_2_LOCALES';
+
+    /**
+     * @var string
+     */
+    public const GEO_IP_2_OPTIONS = 'GEO_IP_2_OPTIONS';
 }

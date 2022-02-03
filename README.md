@@ -34,3 +34,11 @@ composer req valantic-spryker/geoip2-api
 $config[GeoIp2Constants::GEO_IP_2_ACCOUNT_ID] = '<your-account-id>';
 $config[GeoIp2Constants::GEO_IP_2_LICENSE_KEY] = '<your-license-key>';
 ```
+
+If you want to modify your locales or options (especially if you want to use GeoLite2), also add
+```
+$config[GeoIp2Constants::GEO_IP_2_LOCALES] = ['en'];
+$config[GeoIp2Constants::GEO_IP_2_OPTIONS] = [
+    'host' => 'https://geolite.info/geoip/v2.1/country/{ip_address}',
+];
+```

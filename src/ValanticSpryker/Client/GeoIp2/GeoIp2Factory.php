@@ -35,6 +35,8 @@ class GeoIp2Factory extends AbstractFactory
         return new Client(
             $this->getConfig()->getGeoIp2AccountId(),
             $this->getConfig()->getGeoIp2LicenseKey(),
+            $this->getConfig()->getGeoIp2Locales(),
+            $this->getConfig()->getGeoIp2Options(),
         );
     }
 

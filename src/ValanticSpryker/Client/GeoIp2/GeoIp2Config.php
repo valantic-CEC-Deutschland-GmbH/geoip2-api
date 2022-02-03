@@ -24,4 +24,20 @@ class GeoIp2Config extends AbstractBundleConfig
     {
         return $this->get(GeoIp2Constants::GEO_IP_2_LICENSE_KEY);
     }
+
+    /**
+     * @return array<string>
+     */
+    public function getGeoIp2Locales(): array
+    {
+        return $this->get(GeoIp2Constants::GEO_IP_2_LOCALES);
+    }
+
+    /**
+     * @return array<string>
+     */
+    public function getGeoIp2Options(): array
+    {
+        return $this->get(GeoIp2Constants::GEO_IP_2_OPTIONS);
+    }
 }
