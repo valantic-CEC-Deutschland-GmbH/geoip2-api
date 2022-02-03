@@ -39,6 +39,6 @@ If you want to modify your locales or options (especially if you want to use Geo
 ```
 $config[GeoIp2Constants::GEO_IP_2_LOCALES] = ['en'];
 $config[GeoIp2Constants::GEO_IP_2_OPTIONS] = [
-    'host' => 'https://geolite.info/geoip/v2.1/country/{ip_address}',
+    'host' => 'geolite.info',
 ];
 ```
