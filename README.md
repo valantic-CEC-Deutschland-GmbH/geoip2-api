@@ -2,7 +2,9 @@
 
 [![Minimum PHP Version](https://img.shields.io/badge/php-%3E%3D%207.3-8892BF.svg)](https://php.net/)
 
-GeoIP2 API Spryker implementation
+MaxMind GeoIP2 API Spryker implementation
+
+A client layer abstraction to use MaxMind GeoIP2 API.  Refer to https://www.maxmind.com/ for documentation of the API.
 
 ## Integration
 
@@ -42,3 +44,10 @@ $config[GeoIp2Constants::GEO_IP_2_OPTIONS] = [
     'host' => 'geolite.info',
 ];
 ```
+
+### Usage
+Inject
+
+`\ValanticSpryker\Client\GeoIp2\GeoIp2Client`
+
+where you need it.
