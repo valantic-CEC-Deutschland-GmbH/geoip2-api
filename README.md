@@ -8,7 +8,7 @@ A client layer abstraction to use MaxMind GeoIP2 API.  Refer to https://www.maxm
 
 ### Install package
 ```
-composer req valantic-cec/geoip2-api
+composer req valantic-spryker-eco/geoip2-api
 ```
 
 ### Update your shared config
