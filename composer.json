@@ -1,5 +1,5 @@
 {
-  "name": "valantic-spryker/geoip2-api",
+  "name": "valantic-cec/geoip2-api",
   "type": "library",
   "description": "GeoIP2 API Spryker implementation",
   "homepage": "https://www.valantic.com",
