@@ -3,7 +3,7 @@
   "type": "library",
   "description": "GeoIP2 API Spryker implementation",
   "homepage": "https://www.valantic.com",
-  "license": "MIT",
+  "license": "proprietary",
   "require": {
     "php": ">=7.3",
     "geoip2/geoip2": "~2.0",
